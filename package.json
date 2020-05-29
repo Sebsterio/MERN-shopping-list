@@ -1,0 +1,28 @@
+{
+	"name": "mern-shopping-list",
+	"version": "1.0.0",
+	"description": "Tutorial project",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sebsterio/MERN-shopping-list.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Sebsterio/MERN-shopping-list/issues"
+	},
+	"homepage": "https://github.com/Sebsterio/MERN-shopping-list#readme",
+	"dependencies": {
+		"concurrently": "^5.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.16"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
